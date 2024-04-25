@@ -1,0 +1,15 @@
+frameRate(1);
+draw = function()
+{ 
+    for (var i = 1;i<=6;++i)
+{  
+    for(var j =1; j<=6;++j)
+    {
+        fill(round(random(0,255)),round(random(0,255)),round(random(0,255)));
+      rect(j*50,i*50,50,50);  
+    }
+}
+
+image (getImage("cute/CharacterCatGirl"),200,158,50,100);
+image (getImage("cute/CharacterPinkGirl"), 99,213,50,100);
+};
